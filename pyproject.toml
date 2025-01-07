@@ -20,7 +20,7 @@ authors = [
 maintainers = [
     { name = 'Luca Giuliani', email = 'luca.giuliani13@unibo.it' }
 ]
-license = { file = 'LICENSE' }
+license = 'MIT'
 classifiers = [
     'Development Status :: 3 - Alpha',
     'License :: OSI Approved :: MIT License',
