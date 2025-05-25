@@ -15,7 +15,7 @@ jobs:
                   ["windows-2022", "3.x", ".[full]"],
                   ["macos-13", "3.8.0", "--resolution lowest-direct .[full]"],
                   ["macos-13", "3.x", ".[full]"],
-                  ["ubuntu-24.04", "3.8.12", "--resolution lowest-direct .[full]"]
+                  ["ubuntu-24.04", "3.8.12", "--resolution lowest-direct .[full]"],
                   ["ubuntu-24.04", "3.x", ".[full]"]
                 ]
         runs-on: ${{ matrix.environment[0] }}
